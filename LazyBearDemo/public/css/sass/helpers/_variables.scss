@@ -1,0 +1,20 @@
+//COULEURS
+$black_bg: #212121;
+$white:#FFFFFF;
+$grey:#212121;
+//ROBOTO
+$roboto:'Roboto', sans-serif;
+@font-face {
+    font-family: "BebasNeue-Regular";
+    src: url("../../../typo/BebasNeue-Regular.ttf");
+}
+$bebas:"BebasNeue-Regular", sans-serif;
+
+//FONT-WEIGTH
+$bold:600;
+$light:300;
+
+//DEGRADE
+$dg_right:linear-gradient(to right, #FBB03B, #E64545);
+$dg_bot_right:linear-gradient(to bottom right, #FBB03B, #E64545);
+

@@ -1,0 +1,247 @@
+//PROFIL
+.fondPageProfil{
+    height:530px!important;
+    .profilPictureHead{
+        margin:70px 40% 2% 40%!important
+    }
+    
+    div.infoProfil{
+        h2{
+            text-align: center;
+        }
+    }
+    ul{
+        li{
+            width: 32.66%;
+            display: inline-block;
+            svg{
+                width: 25%;
+                margin:33.5px 39%;
+            }
+        }
+    }
+    .conteneur-FavorisHead{
+        margin-top:5%;
+        height: 600px;;
+        h1{
+            color:$white;
+            font-size:32px;
+            font-family: $roboto;
+        }
+        h2.progFav{
+            margin-top: 60%;
+            color:$white!important;
+            font-size:32px;
+            font-family: $roboto;
+        }
+    }
+}
+
+.filmFirst{
+    margin-top:10%;
+}
+
+.filmFav{
+    background-color: $black_bg!important;
+    .blocInfoFilm{
+        color:$white;
+    }
+}
+
+
+.onglet1{
+    display: block;
+}
+
+.inputOnglet1{
+    border-bottom:20px solid white;
+}
+
+.onglet2{
+    height: 1550px;
+    display:none;
+}
+
+.onglet3{
+    display: none;
+}
+
+.conteneur-Stats{
+    padding-top:25px;
+    font-family:$bebas;
+    color:$white;
+    font-size:32px;
+    text-transform: uppercase;
+    p{
+        margin-top: 10px;
+        font-family: $roboto;
+        font-size:36px;
+        text-transform: none;
+    }
+    .barTaux{
+        float:left;
+        height: 40px;
+        background-image: $dg_right;
+        margin-top: 40px;
+        width: 60%;
+    }
+    .prop{
+        float: left;
+        margin-top: 40px;
+        margin-left: 20px;
+
+    }
+    .bar1{
+        width: 60%;
+    }
+    .bar2{
+        width: 40%;
+    }
+    .bar3{
+        width: 30%;
+    }
+    .bar4{
+        width: 15%;
+    }
+    .bar5{
+        width: 5%;
+    }
+    .bar6{
+        width: 1%;
+    }
+    .maraCreated{
+        font-size:32px;
+        text-transform: none;
+        margin-top: 10%;
+    }
+    .cardMara{
+        margin-top:50px;
+        margin-bottom: 21%;
+        .titleMara{
+            color:$white;
+
+        }
+    }
+}
+
+.conteneur-Contact{
+    .svg-20{
+        margin-top: 70px;
+        width: 8%;
+        float: right;
+    }
+    hr.speHr{
+        margin-top: 28%;
+        }
+    .maraCreated{
+        font-size:38px;
+        text-transform: none;
+        margin-top: 10%;
+        color: $white;
+        font-family: $roboto;
+    }
+    .participants{
+        float: left;
+        margin-top:55px;
+        margin-right:65px;
+        background-image: url(../img/av_mara.png);
+        width: 150px;
+        height: 150px;
+        border:1px solid $white;
+        border-radius:100%;
+    }
+    p{
+        color:$white;
+        font-size:32px;
+        font-family:$roboto;
+        display:inline-block;
+
+    }
+    h2.nameFriend{
+        display:inline-block;
+        color:$white;
+        margin-top: 85px;
+        font-size:38px;
+        text-transform:uppercase;
+        font-family:$bebas;
+    }
+    .svg-16{
+        width: 10%;
+        float: right;
+        margin-top: -9%;
+        margin-right: 10%;
+    }
+}
+
+.maraFav{
+    margin-top: 220px;
+}
+
+.titleStats{
+    margin-top: 22%;
+}
+
+//TEST
+
+div.conteneur-Test{
+    .svg-21{
+        width: 25%;
+        margin: 25% 31% 15% 38%;
+    }
+
+    .participants{
+        float: left;
+        margin-top:20%;
+        margin-left:65px;
+        background-image: url(../img/av_mara.png);
+        width: 250px;
+        height: 250px;
+        border:1px solid $white;
+        border-radius:100%;
+    }
+    div{
+        .testRepB{
+            float: right;
+            margin-right: 85px;
+            margin-left: 0;
+        }
+    }
+    div{
+        p{
+            font-size:4em;
+            font-family:$bebas;
+            color:$white;
+            display: inline-block;
+            margin: 8% 12%;
+        }
+        .repB{
+            margin-left:23%;
+        }
+        input.slideBar{
+            width: 90%;
+            margin: 0 5%;
+            height: 25px;
+        }
+        a{
+
+            .circleTest{
+                border:2px solid $white;
+                width: 200px;
+                height:200px;
+                border-radius:100%;
+                margin:80px 39%;
+                p{
+                    font-size: 6em;
+                    color:$white;
+                    font-family: $bebas;
+                    font-weight: $bold;
+                    position: relative;
+                    top:16%;
+                    left:8%;
+                    text-transform: uppercase;
+                }
+            }
+        }
+        
+    }
+}

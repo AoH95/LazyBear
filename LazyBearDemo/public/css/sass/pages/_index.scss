@@ -1,0 +1,143 @@
+div.conteneur-home{
+    h1{
+    margin: 60px 0 10px 0;
+    color:$white;
+    font-family:$roboto;
+    font-weight:$bold;
+    }  
+    hr{
+       color:$white;
+    }   
+    div.marathonFirst{
+        margin: 30px 20px 20px 0;
+        width: 425px;
+        height: 288px;
+        background-image: url(../img/av_mara.png);
+        background-repeat: no-repeat;
+        float:left;
+        position: relative;
+        z-index: 2;
+    }
+
+    div.marathonSecond{
+        margin: 50px 20px 20px 0;
+        width: 380px;
+        height: 250px;
+        background-image: url(../img/av_mara.png);
+        background-repeat: no-repeat;
+        float:left;
+        position: absolute;
+        left:120px;
+        opacity: 0.7;
+        z-index: 1;
+    }
+
+    div.marathonThird{
+        margin: 70px 20px 20px 0;
+        width: 350px;
+        height: 220px;
+        background-image: url(../img/av_mara.png);
+        background-repeat: no-repeat;
+        float:left;
+        position: absolute;
+        left:170px;
+        opacity: 0.4;
+        z-index: 1;
+    }
+
+    button{
+        font-size:50px;
+        padding: 10px 20px;
+        border-radius:12px;
+        font-family: $roboto;
+        font-weight: $bold;
+        background-image: $dg_right;
+        color:$white;
+        border:none;
+        margin: 120px 97px;
+    }
+
+    h2{
+        color:$white;
+        font-family:$roboto;
+        font-weight:$bold;
+        text-transform: uppercase;
+        font-size:35px;
+    }
+    
+    .validate-icon{
+        border-radius:40px;
+        background-image: $dg_bot_right;
+        width: 60px;
+        height: 60px;
+        float: right;
+        svg{
+            margin: 15px 11px;
+            width: 60%;
+        }
+    }
+
+    .circleTest{
+        border:2px solid $white;
+        width: 300px;
+        height:300px;
+        border-radius:100%;
+        margin:80px 70px;
+        p{
+            font-size: 6em;
+            color:$white;
+            font-family: $bebas;
+            font-weight: $bold;
+            position: relative;
+            top:34%;
+            left:20%;
+            text-transform: uppercase;
+        }
+    }
+
+    .circleMara{
+        background-image: $dg_bot_right;
+        width: 300px;
+        height:300px;
+        border-radius:100%;
+        margin:80px 70px;
+        p{
+            font-size: 4em;
+            color:$white;
+            font-family: $bebas;
+            font-weight: $bold;
+            position: relative;
+            top:27%;
+            left:1%;
+            text-transform: uppercase;
+            text-align: center;
+        }
+    }
+
+    div.maraSuggest{
+        background-image: url(../img/av_mara.png);
+        height: 500px;
+    }
+
+    div.maraSuggestCards{
+        padding:5px;
+        margin-bottom:100px;
+    }
+
+    div.maraTime{
+        text-align: left;
+        color:$white;
+        padding:15px 15px;
+        background-image:$dg_bot_right;
+        font-size:28px;
+        font-family: $roboto;
+        font-weight: $bold;
+    }
+
+    i{
+        color:$white;
+        font-size: 32px;
+        margin-bottom:2px;
+        font-family:$roboto;
+    }
+}

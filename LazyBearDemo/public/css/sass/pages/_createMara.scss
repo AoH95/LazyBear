@@ -1,0 +1,330 @@
+div.blocMara{
+    h1{
+        font-family:$bebas;
+        color:$white;
+        font-size:5em;
+        text-align: center;
+        margin-top:50px;
+        font-weight: 800;
+    }
+    svg{
+        width: 35px;
+    }
+    p{
+        margin-left:15px;
+        display: inline-block;
+        color:$white;
+        font-size:35px;
+        font-family:$roboto;
+    }
+
+    div.calendrier{
+        padding-left: 29%;
+    }
+
+    div.clock{
+        padding-left:3%;
+    }
+}
+
+div.pictureMara{
+    background-image: url(../img/av_mara.png);
+    width: 100%;
+    height: 500px;
+}
+
+div.blocTime{
+    height: 80px;
+    background-image: $dg_right;
+    p{
+        color:$white;
+        text-align: center;
+        font-size:35px;
+        font-weight: $bold;
+        padding-top: 17px;
+        font-family:$roboto;
+    }
+}
+
+div.blocAjoutFilm{
+    background-color:$white;
+    p{
+        padding: 40px 0px;
+        font-size:35px;
+        font-family: $roboto;
+        color:$grey;
+        font-weight: 400;
+        display: inline-block;
+        margin-left:33%;
+    }
+    svg{
+        width:5%;
+        position: relative;
+        top:15px;
+        left:15px;
+    }
+}
+
+div.blocFilm{
+    background-color:$white;
+    height: 220px;
+    div.imgFilm{
+        background-image: url(../img/av_mara.png);
+        width: 220px;
+        height: 220px;
+        background-position: center;
+        float: left;
+        margin-right: 30px;
+    }
+    div.blocInfoFilm{
+        padding: 47.5px 0;
+        position:relative;
+        h2{
+            font-size:  2.5em;
+            font-family: $bebas;
+            font-weight: $bold;
+            text-transform:uppercase;
+        }
+        p{
+                font-family: $roboto;
+                font-weight:400;
+                font-size: 32px;
+        }
+        svg{
+            width: 5%;
+            position: relative;
+            top: -70px;
+            left: 60.5%;        
+            
+        }
+        .svg2{
+            top: -5px;
+            left: 55%;
+        }
+    }
+}
+
+.blocSpeFilm{
+    margin-top: -20%;}
+
+.bloc-white{
+    height: 430px;
+}
+
+div.conteneur-participants{
+    div.blocParticipants{
+        h1{
+            margin: 60px 0 10px 0;
+            color:$white;
+            font-family:$roboto;
+            font-weight:$bold;
+            } 
+            div{
+                width: 100%;
+                height: 250px;
+                div.participants{
+                    float: left;
+                    margin-top:40px;
+                    margin-right:40px;
+                    background-image: url(../img/av_mara.png);
+                    width: 150px;
+                    height: 150px;
+                    border:1px solid $white;
+                    border-radius:100%;
+                }
+                .svg4{
+                    width:5%;
+                    position:relative;
+                    left: -54.5%;
+                    top: -38%;
+                }
+                .svg3{
+                    width:5%;
+                    position: relative;
+                    left: -56.5%;
+                    top: 20%;
+                }
+                svg{
+                    width: 9%;
+                    margin-top:75px;
+                    margin-left:-35px;
+                }
+            }
+    }
+    div.participantsWishs{
+        clear:left;
+        margin-top:50px;
+        h2{
+            font-size:32px;
+            margin: 40px 0 10px 0;
+            color:$white;
+            font-family:$roboto;
+            font-weight:$bold;
+        }
+    }
+}
+
+div.blocFilm2{
+    background-color: $black_bg;
+    div.blocInfoFilm2{
+        h2,p{
+            color:$white;
+        }
+        .svg5{
+            left: 44%;
+            top: -60px;
+            width:5%;   
+        }
+        .svg6{
+            width: 4%;
+            top:-100px;
+            left: 52%;
+        }
+        .svg7{
+            width: 4%;
+            top:-25px;
+            left: 47%;
+        }
+        .svg8{
+            width: 8%;
+            left: 45%;
+            top: -30px;
+        }
+        .svg9{
+            width: 8%;
+            left: 46%;
+            top: -30px;
+        }
+    }
+}
+div.blocAddFilm{
+    width: 90%;
+    .svg10{
+        width: 80px!important;
+        margin: 20px 50%;
+    }
+}
+
+//FICHE MARA
+.svg-14{
+    width:25%;
+    margin: -25px 40% 0 40%;
+}
+
+.ficheMara{
+    margin-top:70px;
+}
+
+.ajoutMara{
+    margin-left:28%!important;
+}
+
+.ajoutMaraModif{
+    margin-left:35%!important;
+}
+
+//TOUS LES MARATHONS
+.conteneur-ListMara{
+    padding-bottom: 10%;
+    height: 2350px;
+}
+select{
+    width:auto;
+    height: 150px;
+    font-size:40px;
+    background: none;
+    color: $white;
+    font-family: $roboto;
+    border:none;
+    padding: 5px 20px;
+    border-bottom:1px solid $white;
+    margin-left: 33%;
+    option{
+        font-size:12px;
+        background-color: $black_bg;
+        padding:20px;
+        
+    }
+}
+
+div.cardMara{
+    background-image: url(../img/av_mara.png);
+    height: 300px;
+    width: 400px;
+    margin-top: 90px;
+    border:1px solid $white;
+    .titleMara{
+        color:$white;
+        font-size:30px;
+        font-family:$roboto;
+        text-transform: uppercase;
+        font-weight: $bold;
+        padding-top: 320px;
+        padding-left:20px;
+    }
+}
+
+.card1{
+    float: left;
+}
+
+.card2{
+    float: right;
+}
+
+//MES MARATHONS
+div.conteneur-mesMara{
+    color:$white;
+    h1{
+        font-family:$roboto;
+        font-weight: $bold;
+        font-size:32px;
+    }
+    .cardMara{
+        margin-right:40px;
+    }
+}
+
+.svg-16{
+    width: 10%;
+    margin-top: 23%;
+    margin-left: 20%;
+}
+//SEARCH
+.svg-18{
+    width: 50px;
+    margin-top: 50px!important;
+    float: right;
+}
+
+.blocSearchFilm{
+    color:$black_bg;
+}
+
+.textNoResult{
+    font-family:$roboto;
+    font-size:35px;
+    text-align: center;
+}
+
+.blocSuggestSearch{
+    height: 1650px;
+    div.cardMara{
+        p.titleMara{
+            color:$black_bg;
+        }
+    }
+}
+
+.voirPlus{
+    margin-bottom: 8%;
+    p{
+        margin-left:40%!important;
+    }
+    .svg-18{
+        float: none;
+    }
+}
+
+
+

@@ -1,0 +1,63 @@
+{% extends 'base.html.twig' %}
+{% block title %}Paramètres{% endblock %}
+
+{% block meta %}
+    <!-- Meta Page -->
+{% endblock %}
+
+{% block stylesheets %}
+    <!-- CSS Page -->
+{% endblock %}
+
+{% block body %}
+        <div class="navTopReturn">
+        <a href="{{path('profil') }}">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.04 17.496"><defs><style>.a{fill:#fff;}</style></defs><g transform="translate(0.408 0)"><path class="a" d="M8.071,17.056-.4,8.582a.014.014,0,0,1,0-.01.014.014,0,0,1,0-.01L1.707,6.449h0L7.718.439A1.5,1.5,0,0,1,9.839,2.561l-6.01,6.01,6.364,6.364a1.5,1.5,0,1,1-2.121,2.121Z"/></g></svg>
+        </a>
+        <h1>Paramètres</h1>
+    </div>
+
+    <div class="cale"></div>
+
+    <div class="backgroundWhite">
+        <h1>Réglages</h1>
+        <p><b>Profil public</b></p>
+        <p>Autoriser les autres utilisateurs à me trouver, à visionner mon profil et mes information et à me contacter
+            <input type="radio">
+        </p>
+
+        <br><br><br><br>
+
+        <p><b>Notifications</b></p>
+        <p>Lorsqu'un nouveau programme va sortir
+            <input type="radio">
+        </p>
+
+        <p>Lorsqu'on m'invite à un marathon
+            <input type="radio">
+        </p>
+
+        <br><br><br><br>
+
+        <p><b>Paramètres du compte</b></p>
+        <p><b>Compte liés :</b></p>
+        <p>Facebook<br><i>connecté(e) en tant que Emilie Jouhaud</i><input type="radio"></p>
+        <p>Google<input type="radio"></p>
+        <p>WhatsApp<br><i>+33 6 02 02 02 02 </i><input type="radio"></p>
+
+        <br><br>
+
+        <p class="textOrange">Déconnexion</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    </div>
+    <!-- Body Page -->
+{% endblock %}
+
+{% block javascripts %}
+    <!-- Jss Page -->
+{% endblock %}

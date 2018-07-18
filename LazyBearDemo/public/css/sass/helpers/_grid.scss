@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    //scroll-behavior: smooth;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+[class^="conteneur-"]{
+    margin: 0 50px;
+}
+
+[class^="col-"]{
+    float: left;
+}
+
+@for $i from 1 through 12 {
+ 
+    .col-#{$i} { 
+        width: 100% / 12 * $i;
+    }
+}

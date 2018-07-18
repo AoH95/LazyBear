@@ -1,0 +1,24 @@
+body nav{
+    position:fixed;
+    bottom:0px;
+    z-index: 5;
+}
+
+body {
+    background-color:$black-bg;
+    nav {
+        background-color:$black-bg;
+        ul{
+            li{
+                padding: 20px 0;
+                display: inline-block;
+                text-align:center;
+                font-size:3em;
+                svg{
+                width: 1.2em;
+                color:$white;
+                }
+            }
+        }
+    }
+}

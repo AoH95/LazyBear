@@ -1,0 +1,50 @@
+{% extends 'base.html.twig' %}
+{% block title %}Home{% endblock %}
+
+{% block meta %}
+    <!-- Meta Page -->
+{% endblock %}
+
+{% block stylesheets %}
+    <!-- CSS Page -->
+{% endblock %}
+
+{% block body %}
+        <div class="navTopReturn">
+        <a href="{{path('testStep1') }}">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.04 17.496"><defs><style>.a{fill:#fff;}</style></defs><g transform="translate(0.408 0)"><path class="a" d="M8.071,17.056-.4,8.582a.014.014,0,0,1,0-.01.014.014,0,0,1,0-.01L1.707,6.449h0L7.718.439A1.5,1.5,0,0,1,9.839,2.561l-6.01,6.01,6.364,6.364a1.5,1.5,0,1,1-2.121,2.121Z"/></g></svg>
+        </a>
+        <h1>Test</h1>
+    </div>
+
+    <div class="cale"></div>
+
+    <div class="conteneur-Test">
+        <svg class="svg-21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 51 54"><defs><style>.a147{fill:url(#a147);}</style><linearGradient id="a147" x1="1.455" y1="0.875" x2="0.103" y2="0.146" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#e64545"/><stop offset="1" stop-color="#ffc355"/></linearGradient></defs><path class="a147" d="M0,0V54H31V40.5H13.812V0Z"/><path class="a147" d="M31,54H17.188V39.387A4.338,4.338,0,0,0,12.8,35.1H0V0H13.812V21.6h2.3A14.726,14.726,0,0,1,31,36.156Z" transform="translate(20)"/></svg>
+
+        <div class="col-12">
+            <div class="participants"></div>
+        
+            <div class="participants testRepB"></div>
+            
+        </div>
+
+        <div class="col-12">
+        <p>Humour</p>
+        <p class="repB">Thriller</p>
+                <br>
+            <input class="slideBar" type="range">
+                <br>
+            <a href="{{path('default') }}">
+                <div class="circleTest">
+                    <p>OK !</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- Body Page -->
+{% endblock %}
+
+{% block javascripts %}
+    <!-- Jss Page -->
+{% endblock %}

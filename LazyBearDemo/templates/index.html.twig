@@ -1,0 +1,100 @@
+{% extends 'base.html.twig' %}
+{% block title %}Home{% endblock %}
+
+{% block meta %}
+    <!-- Meta Page -->
+{% endblock %}
+
+{% block stylesheets %}
+    <!-- CSS Page -->
+{% endblock %}
+
+{% block body %}
+    <div class="conteneur-home">
+        <h1>Les marathons du moment</h1>
+        <br>
+        <hr>
+
+        <div class="marathonFirst"></div>
+        <div class="marathonSecond"></div>
+        <div class="marathonThird"></div>
+
+        <a href="{{ path('marathons') }}">
+        <button>Tout voir</button>
+        </a>
+        
+        
+        <br>
+        <br>
+
+        <div class="col-5">
+        <a href="{{ path('ficheMarathon') }}">
+            <h2>AVENGERS<br>CHRONOLOGIE</h2>
+        </a>
+        </div>
+        <div class="col-1">
+            <div class="validate-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10.048 8.607"><defs><style>.a{fill:#fff;}</style></defs><rect class="a" width="4" height="1" transform="translate(0.731 5) rotate(47)"/><rect class="a" width="10.658" height="1.066" transform="translate(2 7.795) rotate(-47)"/></svg></div>
+        </div>
+
+        <div class="col-12">
+            <div class="col-6">
+                <a href="{{path('testStep1') }}">
+                <div class="circleTest">
+                    <p>TEST !</p>
+                </div>
+                </a>
+            </div>
+
+            <div class="col-6">
+                <a href="{{path('createMarathonStep1') }}">
+                <div class="circleMara">
+                    <p>Créer un marathon</p>
+                </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-12">
+            <h1>Suggerés pour vous</h1>
+                <br>
+                <hr>
+                <br>
+                <br>
+        </div>
+
+        <a href="{{ path('ficheMarathon') }}">
+            <div class="col-4 maraSuggestCards">
+                <h2>Biiigne chez<br> Tai</h2>
+                <br>
+                <br>
+                <div class="maraSuggest"></div>
+                <div class="maraTime">9 heures 46 minutes</div>
+            </div>
+        </a>
+
+        <a href="{{ path('ficheMarathon') }}">
+            <div class="col-4 maraSuggestCards">
+                <h2>Avengers<br>chronologie</h2>
+                <i>Personnalisé</i>
+                <br>
+                <div class="maraSuggest"></div>
+                <div class="maraTime">9 heures 46 minutes</div>
+            </div>
+        </a>
+
+        <a href="{{ path('ficheMarathon') }}">
+            <div class="col-4 maraSuggestCards">
+                <h2>Christmas<br>Classics</h2>
+                <br>
+                <br>
+                <div class="maraSuggest"></div>
+                <div class="maraTime">9 heures 46 minutes</div>
+            </div>
+        </a>
+    </div>
+    <!-- Body Page -->
+{% endblock %}
+
+{% block javascripts %}
+    <!-- Js Page -->
+{% endblock %}

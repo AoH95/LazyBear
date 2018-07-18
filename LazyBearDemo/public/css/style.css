@@ -1,0 +1,816 @@
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../../../typo/BebasNeue-Regular.ttf"); }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+[class^="conteneur-"] {
+  margin: 0 50px; }
+
+[class^="col-"] {
+  float: left; }
+
+.col-1 {
+  width: 8.3333333333%; }
+
+.col-2 {
+  width: 16.6666666667%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.3333333333%; }
+
+.col-5 {
+  width: 41.6666666667%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.3333333333%; }
+
+.col-8 {
+  width: 66.6666666667%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.3333333333%; }
+
+.col-11 {
+  width: 91.6666666667%; }
+
+.col-12 {
+  width: 100%; }
+
+body nav {
+  position: fixed;
+  bottom: 0px;
+  z-index: 5; }
+
+body {
+  background-color: #212121; }
+  body nav {
+    background-color: #212121; }
+    body nav ul li {
+      padding: 20px 0;
+      display: inline-block;
+      text-align: center;
+      font-size: 3em; }
+      body nav ul li svg {
+        width: 1.2em;
+        color: #FFFFFF; }
+
+div.conteneur-home h1 {
+  margin: 60px 0 10px 0;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600; }
+div.conteneur-home hr {
+  color: #FFFFFF; }
+div.conteneur-home div.marathonFirst {
+  margin: 30px 20px 20px 0;
+  width: 425px;
+  height: 288px;
+  background-image: url(../img/av_mara.png);
+  background-repeat: no-repeat;
+  float: left;
+  position: relative;
+  z-index: 2; }
+div.conteneur-home div.marathonSecond {
+  margin: 50px 20px 20px 0;
+  width: 380px;
+  height: 250px;
+  background-image: url(../img/av_mara.png);
+  background-repeat: no-repeat;
+  float: left;
+  position: absolute;
+  left: 120px;
+  opacity: 0.7;
+  z-index: 1; }
+div.conteneur-home div.marathonThird {
+  margin: 70px 20px 20px 0;
+  width: 350px;
+  height: 220px;
+  background-image: url(../img/av_mara.png);
+  background-repeat: no-repeat;
+  float: left;
+  position: absolute;
+  left: 170px;
+  opacity: 0.4;
+  z-index: 1; }
+div.conteneur-home button {
+  font-size: 50px;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  background-image: linear-gradient(to right, #FBB03B, #E64545);
+  color: #FFFFFF;
+  border: none;
+  margin: 120px 97px; }
+div.conteneur-home h2 {
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 35px; }
+div.conteneur-home .validate-icon {
+  border-radius: 40px;
+  background-image: linear-gradient(to bottom right, #FBB03B, #E64545);
+  width: 60px;
+  height: 60px;
+  float: right; }
+  div.conteneur-home .validate-icon svg {
+    margin: 15px 11px;
+    width: 60%; }
+div.conteneur-home .circleTest {
+  border: 2px solid #FFFFFF;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  margin: 80px 70px; }
+  div.conteneur-home .circleTest p {
+    font-size: 6em;
+    color: #FFFFFF;
+    font-family: "BebasNeue-Regular", sans-serif;
+    font-weight: 600;
+    position: relative;
+    top: 34%;
+    left: 20%;
+    text-transform: uppercase; }
+div.conteneur-home .circleMara {
+  background-image: linear-gradient(to bottom right, #FBB03B, #E64545);
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  margin: 80px 70px; }
+  div.conteneur-home .circleMara p {
+    font-size: 4em;
+    color: #FFFFFF;
+    font-family: "BebasNeue-Regular", sans-serif;
+    font-weight: 600;
+    position: relative;
+    top: 27%;
+    left: 1%;
+    text-transform: uppercase;
+    text-align: center; }
+div.conteneur-home div.maraSuggest {
+  background-image: url(../img/av_mara.png);
+  height: 500px; }
+div.conteneur-home div.maraSuggestCards {
+  padding: 5px;
+  margin-bottom: 100px; }
+div.conteneur-home div.maraTime {
+  text-align: left;
+  color: #FFFFFF;
+  padding: 15px 15px;
+  background-image: linear-gradient(to bottom right, #FBB03B, #E64545);
+  font-size: 28px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600; }
+div.conteneur-home i {
+  color: #FFFFFF;
+  font-size: 32px;
+  margin-bottom: 2px;
+  font-family: "Roboto", sans-serif; }
+
+div.fondProfilPicture {
+  background-image: linear-gradient(to right, #FBB03B, #E64545);
+  height: 350px; }
+  div.fondProfilPicture div.profilPicture {
+    background-image: url(../img/av_mara.png);
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    float: left;
+    margin: 70px 30px 0 145px;
+    border: 2px solid #FFFFFF; }
+  div.fondProfilPicture div.infoProfil {
+    padding-top: 110px; }
+    div.fondProfilPicture div.infoProfil h2 {
+      color: #FFFFFF;
+      font-size: 4em;
+      font-family: "BebasNeue-Regular", sans-serif;
+      text-transform: uppercase;
+      font-weight: 600; }
+    div.fondProfilPicture div.infoProfil p {
+      color: #FFFFFF;
+      font-size: 40px;
+      font-family: "Roboto", sans-serif;
+      font-weight: 400; }
+
+div.conteneur-menu {
+  padding: 0 50px; }
+  div.conteneur-menu svg {
+    margin-bottom: 25px;
+    width: 60px;
+    height: 60px;
+    float: right; }
+  div.conteneur-menu hr {
+    margin: 25px 0px 25px 0px; }
+  div.conteneur-menu ul a li {
+    margin: 60px 0px;
+    font-size: 45px;
+    font-family: "Roboto", sans-serif;
+    color: #FFFFFF;
+    list-style: none;
+    font-weight: 300; }
+
+div.navTopReturn {
+  background-color: #212121;
+  width: 100%;
+  height: 140px;
+  position: fixed;
+  z-index: 5; }
+  div.navTopReturn a svg {
+    width: 40px;
+    margin: 40px 50px; }
+  div.navTopReturn h1 {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: "BebasNeue-Regular", sans-serif;
+    position: fixed;
+    top: 40px;
+    left: 30%;
+    font-size: 4em; }
+  div.navTopReturn a svg.svg2 {
+    margin-top: 35px;
+    float: right;
+    width: 65px; }
+
+div.cale {
+  height: 140px; }
+
+div.blocMara h1 {
+  font-family: "BebasNeue-Regular", sans-serif;
+  color: #FFFFFF;
+  font-size: 5em;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 800; }
+div.blocMara svg {
+  width: 35px; }
+div.blocMara p {
+  margin-left: 15px;
+  display: inline-block;
+  color: #FFFFFF;
+  font-size: 35px;
+  font-family: "Roboto", sans-serif; }
+div.blocMara div.calendrier {
+  padding-left: 29%; }
+div.blocMara div.clock {
+  padding-left: 3%; }
+
+div.pictureMara {
+  background-image: url(../img/av_mara.png);
+  width: 100%;
+  height: 500px; }
+
+div.blocTime {
+  height: 80px;
+  background-image: linear-gradient(to right, #FBB03B, #E64545); }
+  div.blocTime p {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    padding-top: 17px;
+    font-family: "Roboto", sans-serif; }
+
+div.blocAjoutFilm {
+  background-color: #FFFFFF; }
+  div.blocAjoutFilm p {
+    padding: 40px 0px;
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    color: #212121;
+    font-weight: 400;
+    display: inline-block;
+    margin-left: 33%; }
+  div.blocAjoutFilm svg {
+    width: 5%;
+    position: relative;
+    top: 15px;
+    left: 15px; }
+
+div.blocFilm {
+  background-color: #FFFFFF;
+  height: 220px; }
+  div.blocFilm div.imgFilm {
+    background-image: url(../img/av_mara.png);
+    width: 220px;
+    height: 220px;
+    background-position: center;
+    float: left;
+    margin-right: 30px; }
+  div.blocFilm div.blocInfoFilm {
+    padding: 47.5px 0;
+    position: relative; }
+    div.blocFilm div.blocInfoFilm h2 {
+      font-size: 2.5em;
+      font-family: "BebasNeue-Regular", sans-serif;
+      font-weight: 600;
+      text-transform: uppercase; }
+    div.blocFilm div.blocInfoFilm p {
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      font-size: 32px; }
+    div.blocFilm div.blocInfoFilm svg {
+      width: 5%;
+      position: relative;
+      top: -70px;
+      left: 60.5%; }
+    div.blocFilm div.blocInfoFilm .svg2 {
+      top: -5px;
+      left: 55%; }
+
+.blocSpeFilm {
+  margin-top: -20%; }
+
+.bloc-white {
+  height: 430px; }
+
+div.conteneur-participants div.blocParticipants h1 {
+  margin: 60px 0 10px 0;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600; }
+div.conteneur-participants div.blocParticipants div {
+  width: 100%;
+  height: 250px; }
+  div.conteneur-participants div.blocParticipants div div.participants {
+    float: left;
+    margin-top: 40px;
+    margin-right: 40px;
+    background-image: url(../img/av_mara.png);
+    width: 150px;
+    height: 150px;
+    border: 1px solid #FFFFFF;
+    border-radius: 100%; }
+  div.conteneur-participants div.blocParticipants div .svg4 {
+    width: 5%;
+    position: relative;
+    left: -54.5%;
+    top: -38%; }
+  div.conteneur-participants div.blocParticipants div .svg3 {
+    width: 5%;
+    position: relative;
+    left: -56.5%;
+    top: 20%; }
+  div.conteneur-participants div.blocParticipants div svg {
+    width: 9%;
+    margin-top: 75px;
+    margin-left: -35px; }
+div.conteneur-participants div.participantsWishs {
+  clear: left;
+  margin-top: 50px; }
+  div.conteneur-participants div.participantsWishs h2 {
+    font-size: 32px;
+    margin: 40px 0 10px 0;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600; }
+
+div.blocFilm2 {
+  background-color: #212121; }
+  div.blocFilm2 div.blocInfoFilm2 h2, div.blocFilm2 div.blocInfoFilm2 p {
+    color: #FFFFFF; }
+  div.blocFilm2 div.blocInfoFilm2 .svg5 {
+    left: 44%;
+    top: -60px;
+    width: 5%; }
+  div.blocFilm2 div.blocInfoFilm2 .svg6 {
+    width: 4%;
+    top: -100px;
+    left: 52%; }
+  div.blocFilm2 div.blocInfoFilm2 .svg7 {
+    width: 4%;
+    top: -25px;
+    left: 47%; }
+  div.blocFilm2 div.blocInfoFilm2 .svg8 {
+    width: 8%;
+    left: 45%;
+    top: -30px; }
+  div.blocFilm2 div.blocInfoFilm2 .svg9 {
+    width: 8%;
+    left: 46%;
+    top: -30px; }
+
+div.blocAddFilm {
+  width: 90%; }
+  div.blocAddFilm .svg10 {
+    width: 80px !important;
+    margin: 20px 50%; }
+
+.svg-14 {
+  width: 25%;
+  margin: -25px 40% 0 40%; }
+
+.ficheMara {
+  margin-top: 70px; }
+
+.ajoutMara {
+  margin-left: 28% !important; }
+
+.ajoutMaraModif {
+  margin-left: 35% !important; }
+
+.conteneur-ListMara {
+  padding-bottom: 10%;
+  height: 2350px; }
+
+select {
+  width: auto;
+  height: 150px;
+  font-size: 40px;
+  background: none;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  padding: 5px 20px;
+  border-bottom: 1px solid #FFFFFF;
+  margin-left: 33%; }
+  select option {
+    font-size: 12px;
+    background-color: #212121;
+    padding: 20px; }
+
+div.cardMara {
+  background-image: url(../img/av_mara.png);
+  height: 300px;
+  width: 400px;
+  margin-top: 90px;
+  border: 1px solid #FFFFFF; }
+  div.cardMara .titleMara {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 320px;
+    padding-left: 20px; }
+
+.card1 {
+  float: left; }
+
+.card2 {
+  float: right; }
+
+div.conteneur-mesMara {
+  color: #FFFFFF; }
+  div.conteneur-mesMara h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 32px; }
+  div.conteneur-mesMara .cardMara {
+    margin-right: 40px; }
+
+.svg-16 {
+  width: 10%;
+  margin-top: 23%;
+  margin-left: 20%; }
+
+.svg-18 {
+  width: 50px;
+  margin-top: 50px !important;
+  float: right; }
+
+.blocSearchFilm {
+  color: #212121; }
+
+.textNoResult {
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+  text-align: center; }
+
+.blocSuggestSearch {
+  height: 1650px; }
+  .blocSuggestSearch div.cardMara p.titleMara {
+    color: #212121; }
+
+.voirPlus {
+  margin-bottom: 8%; }
+  .voirPlus p {
+    margin-left: 40% !important; }
+  .voirPlus .svg-18 {
+    float: none; }
+
+.stepOne .circleTest {
+  border: 2px solid #FFFFFF;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  margin: 0 auto; }
+  .stepOne .circleTest p {
+    font-size: 3em;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "BebasNeue-Regular", sans-serif;
+    font-weight: 600;
+    position: relative;
+    top: 33%;
+    left: 0; }
+.stepOne .soloMara {
+  margin-top: 37%; }
+.stepOne .friendMara {
+  margin-top: 15%; }
+
+.background {
+  background-color: #FFFFFF; }
+
+div.conteneur-addFilm svg {
+  width: 5%;
+  float: right; }
+div.conteneur-addFilm div.filmPicture {
+  margin-left: 50px;
+  margin-top: 100px;
+  float: left;
+  height: 250px;
+  background-image: url(../img/av_mara.png); }
+  div.conteneur-addFilm div.filmPicture p {
+    font-size: 2.5em;
+    font-weight: 600;
+    font-family: "BebasNeue-Regular", sans-serif;
+    margin-top: 71%;
+    text-transform: uppercase; }
+  div.conteneur-addFilm div.filmPicture .svg11 {
+    width: 80px !important;
+    margin: 20px 33%; }
+
+div.blocListFilm {
+  margin-top: 20%; }
+
+button.step2 {
+  font-size: 40px;
+  background-image: linear-gradient(to right, #FBB03B, #E64545);
+  position: fixed;
+  color: #FFFFFF;
+  font-weight: 600;
+  bottom: 10%;
+  left: 35%;
+  padding: 20px 50px;
+  border-radius: 10px;
+  border: none; }
+
+.param1 {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 62px;
+  font-family: "Roboto", sans-serif;
+  margin: 20% auto 10% 0px; }
+
+.param2 {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 38px;
+  font-family: "Roboto", sans-serif;
+  margin: 20px 0px; }
+
+.svg-12 {
+  width: 6%;
+  position: relative;
+  top: 15px;
+  left: -20px; }
+
+.step3 .circleTest {
+  border: 2px solid #FFFFFF;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin: 23% auto; }
+  .step3 .circleTest p {
+    font-size: 70px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "BebasNeue-Regular", sans-serif;
+    font-weight: 600;
+    position: relative;
+    top: 30%;
+    left: 0; }
+.step3 .returnText {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 38px;
+  font-family: "Roboto", sans-serif; }
+
+div.conteneur-invitAmis .svg-13 {
+  width: 8%;
+  float: right; }
+div.conteneur-invitAmis div.participants {
+  float: left;
+  margin-top: 40px;
+  margin-right: 40px;
+  background-image: url(../img/av_mara.png);
+  width: 150px;
+  height: 150px;
+  border: 1px solid #FFFFFF;
+  border-radius: 100%; }
+
+div.backgroundWhite {
+  background-color: #FFFFFF; }
+  div.backgroundWhite h1 {
+    padding: 50px 50px;
+    font-family: "BebasNeue-Regular", sans-serif;
+    font-size: 50px; }
+  div.backgroundWhite p {
+    font-family: "Roboto", sans-serif;
+    padding: 15px 50px;
+    font-size: 32px; }
+    div.backgroundWhite p input {
+      float: right;
+      margin-right: 20px;
+      width: 40px;
+      height: 40px; }
+  div.backgroundWhite .textOrange {
+    color: #FF7700;
+    font-weight: 600;
+    margin-bottom: 60%; }
+
+.fondPageProfil {
+  height: 530px !important; }
+  .fondPageProfil .profilPictureHead {
+    margin: 70px 40% 2% 40% !important; }
+  .fondPageProfil div.infoProfil h2 {
+    text-align: center; }
+  .fondPageProfil ul li {
+    width: 32.66%;
+    display: inline-block; }
+    .fondPageProfil ul li svg {
+      width: 25%;
+      margin: 33.5px 39%; }
+  .fondPageProfil .conteneur-FavorisHead {
+    margin-top: 5%;
+    height: 600px; }
+    .fondPageProfil .conteneur-FavorisHead h1 {
+      color: #FFFFFF;
+      font-size: 32px;
+      font-family: "Roboto", sans-serif; }
+    .fondPageProfil .conteneur-FavorisHead h2.progFav {
+      margin-top: 60%;
+      color: #FFFFFF !important;
+      font-size: 32px;
+      font-family: "Roboto", sans-serif; }
+
+.filmFirst {
+  margin-top: 10%; }
+
+.filmFav {
+  background-color: #212121 !important; }
+  .filmFav .blocInfoFilm {
+    color: #FFFFFF; }
+
+.onglet1 {
+  display: block; }
+
+.inputOnglet1 {
+  border-bottom: 20px solid white; }
+
+.onglet2 {
+  height: 1550px;
+  display: none; }
+
+.onglet3 {
+  display: none; }
+
+.conteneur-Stats {
+  padding-top: 25px;
+  font-family: "BebasNeue-Regular", sans-serif;
+  color: #FFFFFF;
+  font-size: 32px;
+  text-transform: uppercase; }
+  .conteneur-Stats p {
+    margin-top: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    text-transform: none; }
+  .conteneur-Stats .barTaux {
+    float: left;
+    height: 40px;
+    background-image: linear-gradient(to right, #FBB03B, #E64545);
+    margin-top: 40px;
+    width: 60%; }
+  .conteneur-Stats .prop {
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px; }
+  .conteneur-Stats .bar1 {
+    width: 60%; }
+  .conteneur-Stats .bar2 {
+    width: 40%; }
+  .conteneur-Stats .bar3 {
+    width: 30%; }
+  .conteneur-Stats .bar4 {
+    width: 15%; }
+  .conteneur-Stats .bar5 {
+    width: 5%; }
+  .conteneur-Stats .bar6 {
+    width: 1%; }
+  .conteneur-Stats .maraCreated {
+    font-size: 32px;
+    text-transform: none;
+    margin-top: 10%; }
+  .conteneur-Stats .cardMara {
+    margin-top: 50px;
+    margin-bottom: 21%; }
+    .conteneur-Stats .cardMara .titleMara {
+      color: #FFFFFF; }
+
+.conteneur-Contact .svg-20 {
+  margin-top: 70px;
+  width: 8%;
+  float: right; }
+.conteneur-Contact hr.speHr {
+  margin-top: 28%; }
+.conteneur-Contact .maraCreated {
+  font-size: 38px;
+  text-transform: none;
+  margin-top: 10%;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif; }
+.conteneur-Contact .participants {
+  float: left;
+  margin-top: 55px;
+  margin-right: 65px;
+  background-image: url(../img/av_mara.png);
+  width: 150px;
+  height: 150px;
+  border: 1px solid #FFFFFF;
+  border-radius: 100%; }
+.conteneur-Contact p {
+  color: #FFFFFF;
+  font-size: 32px;
+  font-family: "Roboto", sans-serif;
+  display: inline-block; }
+.conteneur-Contact h2.nameFriend {
+  display: inline-block;
+  color: #FFFFFF;
+  margin-top: 85px;
+  font-size: 38px;
+  text-transform: uppercase;
+  font-family: "BebasNeue-Regular", sans-serif; }
+.conteneur-Contact .svg-16 {
+  width: 10%;
+  float: right;
+  margin-top: -9%;
+  margin-right: 10%; }
+
+.maraFav {
+  margin-top: 220px; }
+
+.titleStats {
+  margin-top: 22%; }
+
+div.conteneur-Test .svg-21 {
+  width: 25%;
+  margin: 25% 31% 15% 38%; }
+div.conteneur-Test .participants {
+  float: left;
+  margin-top: 20%;
+  margin-left: 65px;
+  background-image: url(../img/av_mara.png);
+  width: 250px;
+  height: 250px;
+  border: 1px solid #FFFFFF;
+  border-radius: 100%; }
+div.conteneur-Test div .testRepB {
+  float: right;
+  margin-right: 85px;
+  margin-left: 0; }
+div.conteneur-Test div p {
+  font-size: 4em;
+  font-family: "BebasNeue-Regular", sans-serif;
+  color: #FFFFFF;
+  display: inline-block;
+  margin: 8% 12%; }
+div.conteneur-Test div .repB {
+  margin-left: 23%; }
+div.conteneur-Test div input.slideBar {
+  width: 90%;
+  margin: 0 5%;
+  height: 25px; }
+div.conteneur-Test div a .circleTest {
+  border: 2px solid #FFFFFF;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin: 80px 39%; }
+  div.conteneur-Test div a .circleTest p {
+    font-size: 6em;
+    color: #FFFFFF;
+    font-family: "BebasNeue-Regular", sans-serif;
+    font-weight: 600;
+    position: relative;
+    top: 16%;
+    left: 8%;
+    text-transform: uppercase; }
+
+/*# sourceMappingURL=style.css.map */

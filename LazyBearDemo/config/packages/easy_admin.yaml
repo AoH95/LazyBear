@@ -1,0 +1,40 @@
+easy_admin:
+    entities:
+#        # List the entity class name you want to manage
+      Films:
+            class: App\Entity\Films
+            form:
+                fields:
+                - { property: 'imageFile', type: 'vich_image' }
+                - { property : 'nom'}
+                - { property : 'duration'}
+            list:
+                fields:
+                - { property: 'image', type: 'image', base_path: '%app.path.product_images%' }
+                - { property : 'nom'}
+                - { property : 'duration'}
+            show:
+                fields:
+                - { property: 'image', type: 'image', base_path: '%app.path.product_images%' }
+                - { property : 'nom'}
+                - { property : 'duration'}
+        
+      Marathons:
+            class: App\Entity\Marathons
+            form:
+                fields:      
+                - { property : 'titre'}
+            list:
+                fields:     
+                - { property : 'titre'}
+            show:
+                fields:
+                - { property : 'nom'}
+
+#        - App\Entity\User
+
+
+# STYLE
+    site_name: 'LazyBear Enterprise'
+    design:
+      brand_color: '#212121'

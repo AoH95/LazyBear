@@ -1,0 +1,165 @@
+//STEP 1
+.stepOne{
+    .circleTest{
+    border:2px solid $white;
+    width: 300px;
+    height:300px;
+    border-radius:100%;
+    margin:0 auto;
+        p{
+        font-size: 3em;
+        text-align: center;
+        color:$white;
+        font-family: $bebas;
+        font-weight: $bold;
+        position: relative;
+        top:33%;
+        left:0;
+        }
+    }
+    .soloMara{
+        margin-top:37%;
+    }
+    .friendMara{
+        margin-top:15%;
+    }
+}
+
+
+//STEP 2
+.background{background-color: $white;}
+    div.conteneur-addFilm{
+        svg{
+            width:5%;
+            float: right;
+        }
+        div.filmPicture{
+            margin-left: 50px;
+            margin-top:100px;
+            float: left;
+            height: 250px;
+            background-image: url(../img/av_mara.png);
+            p{
+                font-size:2.5em;
+                font-weight: $bold;
+                font-family: $bebas;
+                margin-top: 71%;
+                text-transform:uppercase;
+            }
+            .svg11{
+                width: 80px !important;
+                margin: 20px 33%;
+            }
+        }
+    }
+
+
+div.blocListFilm{
+    margin-top:20%;
+}
+
+button.step2{
+    font-size:40px;
+    background-image:$dg-right;
+    position: fixed;
+    color:$white;
+    font-weight: $bold;
+    bottom:10%;
+    left:35%;
+    padding: 20px 50px;
+    border-radius:10px;
+    border:none;
+}
+
+//STEP 3
+.param1{ 
+    color:$white;
+    text-align:center;
+    font-size:62px;
+    font-family:$roboto;
+    margin:20% auto 10% 0px;
+}
+
+.param2{
+    color:$white;
+    text-align:center;
+    font-size:38px;
+    font-family:$roboto;
+    margin:20px 0px;
+}
+.svg-12{
+    width:6%;
+    position: relative;
+    top:15px;
+    left: -20px;
+
+}
+    
+.step3{
+        .circleTest{
+        border:2px solid $white;
+        width: 200px;
+        height:200px;
+        border-radius:100%;
+        margin:23% auto;
+            p{
+            font-size: 70px;
+            text-align: center;
+            color:$white;
+            font-family: $bebas;
+            font-weight: $bold;
+            position: relative;
+            top:30%;
+            left:0;
+            }
+        }
+        .returnText{
+            color:$white;
+            text-align:center;
+            font-size:38px;
+            font-family:$roboto;
+        }
+    }
+
+    div.conteneur-invitAmis{
+        .svg-13{
+            width:8%;
+            float: right;
+        }
+        div.participants{
+            float: left;
+            margin-top:40px;
+            margin-right:40px;
+            background-image: url(../img/av_mara.png);
+            width: 150px;
+            height: 150px;
+            border:1px solid $white;
+            border-radius:100%;
+        }
+    }
+
+div.backgroundWhite{
+    background-color: $white;
+    h1{
+        padding: 50px 50px;
+        font-family: $bebas;
+        font-size:50px;
+    }
+    p{
+        font-family:$roboto;
+        padding: 15px 50px;
+        font-size:32px;
+        input{
+            float:right;
+            margin-right: 20px;
+            width: 40px;
+            height: 40px;
+        }
+    }
+    .textOrange{
+        color:#FF7700;
+        font-weight: $bold;
+        margin-bottom:60%;
+    }
+}
+

@@ -1,0 +1,61 @@
+{% extends 'base.html.twig' %}
+{% block title %}Etape 4{% endblock %}
+
+{% block meta %}
+    <!-- Meta Page -->
+{% endblock %}
+
+{% block stylesheets %}
+    <!-- CSS Page -->
+{% endblock %}
+
+{% block body %}
+
+        <div class="navTopReturn">
+        <a href="{{path('createMarathonStep3') }}">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.04 17.496"><defs><style>.a65{fill:#fff;}</style></defs><g transform="translate(0.408 0)"><path class="a65" d="M8.071,17.056-.4,8.582a.014.014,0,0,1,0-.01.014.014,0,0,1,0-.01L1.707,6.449h0L7.718.439A1.5,1.5,0,0,1,9.839,2.561l-6.01,6.01,6.364,6.364a1.5,1.5,0,1,1-2.121,2.121Z"/></g></svg>
+        </a>
+        <h1>Créer un marathon</h1>
+        
+    </div>
+
+    <div class="cale"></div>
+
+<div class="conteneur-invitAmis">
+
+    <h2 class="param1">Inviter des amis</h2>
+    
+    <svg class="svg-13"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.019 19.019"><defs><style>.a{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:2px;}</style></defs><g transform="translate(1 1)"><circle class="a" cx="6.5" cy="6.5" r="6.5"/><path class="a" d="M.5.5,7.019,7.019" transform="translate(11 10)"/></g></svg>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <hr>
+
+<br>
+<br>
+<br>
+<div class="participants"></div>
+<div class="participants"></div>
+<div class="participants"></div>
+<div class="participants"></div>
+</div>
+
+
+    <div class="col-12 step3">
+        <a href="{{path('createMarathon')}}">
+            <div class="circleTest buttonOk">
+                <p class="nextStepOk">OK!</p>
+            </div>
+        </a>
+        <a href="{{path('createMarathonStep3')}}">
+            <p class="returnText">Etape Précédente</p>
+        </a>
+    </div>
+    <!-- Body Page -->
+{% endblock %}
+
+{% block javascripts %}
+    <!-- Js Page -->
+{% endblock %}
