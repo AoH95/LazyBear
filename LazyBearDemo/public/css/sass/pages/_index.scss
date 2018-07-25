@@ -114,9 +114,22 @@ div.conteneur-home{
         }
     }
 
-    div.maraSuggest{
+    div.maraSuggest1{
+        background-image: url(../img/binge.png);
+        height: 500px;
+        background-size: cover;
+    }
+
+    div.maraSuggest2{
         background-image: url(../img/av_mara.png);
         height: 500px;
+        background-size:cover;
+    }
+
+    div.maraSuggest3{
+        background-image: url(../img/mam.png);
+        height: 500px;
+        background-size: cover;
     }
 
     div.maraSuggestCards{

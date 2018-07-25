@@ -57,6 +57,19 @@ class DefaultController extends Controller
     }
 
     /**
+     * @Route("/chatbot", name="chatbot")
+     * @Template()
+     */
+    public function chatbot(FilmsRepository $FilmsRepository)
+    {
+        $listeFilms = $FilmsRepository->findAll();
+        
+        return $this->render('chatbot.html.twig', array(
+            'listeFilms' => $listeFilms
+        ));
+    }
+
+    /**
      * @Route("/profil", name="profil")
      * @Template()
      * @Method({"GET", "POST"})

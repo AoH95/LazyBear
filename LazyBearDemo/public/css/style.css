@@ -51,6 +51,42 @@ a {
 .col-12 {
   width: 100%; }
 
+@media screen and (min-width: 320px) and (max-width: 812px) {
+  .col-1 {
+    width: 8.3333333333%; }
+
+  .col-2 {
+    width: 16.6666666667%; }
+
+  .col-3 {
+    width: 25%; }
+
+  .col-4 {
+    width: 33.3333333333%; }
+
+  .col-5 {
+    width: 41.6666666667%; }
+
+  .col-6 {
+    width: 50%; }
+
+  .col-7 {
+    width: 58.3333333333%; }
+
+  .col-8 {
+    width: 66.6666666667%; }
+
+  .col-9 {
+    width: 75%; }
+
+  .col-10 {
+    width: 83.3333333333%; }
+
+  .col-11 {
+    width: 91.6666666667%; }
+
+  .col-12 {
+    width: 100%; } }
 body nav {
   position: fixed;
   bottom: 0px;
@@ -163,9 +199,18 @@ div.conteneur-home .circleMara {
     left: 1%;
     text-transform: uppercase;
     text-align: center; }
-div.conteneur-home div.maraSuggest {
+div.conteneur-home div.maraSuggest1 {
+  background-image: url(../img/binge.png);
+  height: 500px;
+  background-size: cover; }
+div.conteneur-home div.maraSuggest2 {
   background-image: url(../img/av_mara.png);
-  height: 500px; }
+  height: 500px;
+  background-size: cover; }
+div.conteneur-home div.maraSuggest3 {
+  background-image: url(../img/mam.png);
+  height: 500px;
+  background-size: cover; }
 div.conteneur-home div.maraSuggestCards {
   padding: 5px;
   margin-bottom: 100px; }
@@ -271,7 +316,7 @@ div.blocMara div.clock {
   padding-left: 3%; }
 
 div.pictureMara {
-  background-image: url(../img/av_mara.png);
+  backround-image: url(../img/av_mara.png);
   width: 100%;
   height: 500px; }
 
@@ -305,8 +350,27 @@ div.blocAjoutFilm {
 div.blocFilm {
   background-color: #FFFFFF;
   height: 220px; }
+  div.blocFilm .imgFilm1 {
+    background-size: cover;
+    background-image: url(../img/jr.png);
+    background-repeat: none; }
+  div.blocFilm .imgFilm2 {
+    background-size: cover;
+    background-image: url(../img/jr3.jpg);
+    background-repeat: none; }
+  div.blocFilm .imgFilm3 {
+    background-size: cover;
+    background-image: url(../img/jr4.jpg);
+    background-repeat: none; }
+  div.blocFilm .imgFilm4 {
+    background-size: cover;
+    background-image: url(../img/jr5.jpg);
+    background-repeat: none; }
+  div.blocFilm .imgFilm5 {
+    background-size: cover;
+    background-image: url(../img/jr2.jpg);
+    background-repeat: none; }
   div.blocFilm div.imgFilm {
-    background-image: url(../img/av_mara.png);
     width: 220px;
     height: 220px;
     background-position: center;
@@ -442,10 +506,10 @@ select {
   select option {
     font-size: 12px;
     background-color: #212121;
-    padding: 20px; }
+    padding: 20px;
+    text-align: center; }
 
 div.cardMara {
-  background-image: url(../img/av_mara.png);
   height: 300px;
   width: 400px;
   margin-top: 90px;
@@ -458,6 +522,46 @@ div.cardMara {
     font-weight: 600;
     padding-top: 320px;
     padding-left: 20px; }
+
+.cardMara1 {
+  background-image: url(../img/av_mara.png);
+  background-size: cover; }
+
+.cardMara2 {
+  background-image: url(../img/jr.png);
+  background-size: cover; }
+
+.cardMara3 {
+  background-image: url(../img/sw.png);
+  background-size: cover; }
+
+.cardMara4 {
+  background-image: url(../img/nono.png);
+  background-size: cover; }
+
+.cardMara5 {
+  background-image: url(../img/md.png);
+  background-size: cover; }
+
+.cardMara6 {
+  background-image: url(../img/duper.png);
+  background-size: cover; }
+
+.cardMara7 {
+  background-image: url(../img/miya.png);
+  background-size: cover; }
+
+.cardMara8 {
+  background-image: url(../img/space.png);
+  background-size: cover; }
+
+.cardMara9 {
+  background-image: url(../img/transporteur.jpg);
+  background-size: cover; }
+
+.cardMara10 {
+  background-image: url(../img/baudelaire.jpg);
+  background-size: cover; }
 
 .card1 {
   float: left; }
@@ -525,17 +629,25 @@ div.conteneur-mesMara {
   margin-top: 15%; }
 
 .background {
-  background-color: #FFFFFF; }
+  background-color: #FFFFFF;
+  height: 700px; }
 
 div.conteneur-addFilm svg {
   width: 5%;
   float: right; }
+div.conteneur-addFilm .filmPicture1 {
+  background-image: url(../img/jr.png);
+  background-size: cover;
+  background-repeat: none; }
+div.conteneur-addFilm .filmPicture2 {
+  background-image: url(../img/jr2.jpg);
+  background-size: cover;
+  background-repeat: none; }
 div.conteneur-addFilm div.filmPicture {
   margin-left: 50px;
   margin-top: 100px;
   float: left;
-  height: 250px;
-  background-image: url(../img/av_mara.png); }
+  height: 250px; }
   div.conteneur-addFilm div.filmPicture p {
     font-size: 2.5em;
     font-weight: 600;

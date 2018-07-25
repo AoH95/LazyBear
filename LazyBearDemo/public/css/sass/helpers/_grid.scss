@@ -24,3 +24,12 @@ a{
         width: 100% / 12 * $i;
     }
 }
+
+@media screen and (min-width: 320px) and (max-width: 812px) {
+    @for $i from 1 through 12 {
+ 
+        .col-#{$i} { 
+            width: 100% / 12 * $i;
+        }
+    }
+  }

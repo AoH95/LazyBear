@@ -28,7 +28,7 @@ div.blocMara{
 }
 
 div.pictureMara{
-    background-image: url(../img/av_mara.png);
+    backround-image: url(../img/av_mara.png);
     width: 100%;
     height: 500px;
 }
@@ -68,8 +68,32 @@ div.blocAjoutFilm{
 div.blocFilm{
     background-color:$white;
     height: 220px;
+    .imgFilm1{
+        background-size:cover;
+        background-image: url(../img/jr.png);
+        background-repeat: none;
+    }
+    .imgFilm2{
+        background-size:cover;
+        background-image: url(../img/jr3.jpg);
+        background-repeat: none;
+    }
+    .imgFilm3{
+        background-size:cover;
+        background-image: url(../img/jr4.jpg);
+        background-repeat: none;
+    }
+    .imgFilm4{
+        background-size:cover;
+        background-image: url(../img/jr5.jpg);
+        background-repeat: none;
+    }
+    .imgFilm5{
+        background-size:cover;
+        background-image: url(../img/jr2.jpg);
+        background-repeat: none;
+    }
     div.imgFilm{
-        background-image: url(../img/av_mara.png);
         width: 220px;
         height: 220px;
         background-position: center;
@@ -243,12 +267,11 @@ select{
         font-size:12px;
         background-color: $black_bg;
         padding:20px;
-        
+        text-align: center;
     }
 }
 
 div.cardMara{
-    background-image: url(../img/av_mara.png);
     height: 300px;
     width: 400px;
     margin-top: 90px;
@@ -262,6 +285,57 @@ div.cardMara{
         padding-top: 320px;
         padding-left:20px;
     }
+}
+
+.cardMara1{
+    background-image: url(../img/av_mara.png);
+    background-size:cover;
+}
+
+
+.cardMara2{
+    background-image: url(../img/jr.png);
+    background-size:cover;
+}
+
+.cardMara3{
+    background-image: url(../img/sw.png);
+    background-size:cover;
+}
+
+.cardMara4{
+    background-image: url(../img/nono.png);
+    background-size:cover;
+}
+
+.cardMara5{
+    background-image: url(../img/md.png);
+    background-size:cover;
+}
+
+.cardMara6{
+    background-image: url(../img/duper.png);
+    background-size:cover;
+}
+
+.cardMara7{
+    background-image: url(../img/miya.png);
+    background-size:cover;
+}
+
+.cardMara8{
+    background-image: url(../img/space.png);
+    background-size:cover;
+}
+
+.cardMara9{
+    background-image: url(../img/transporteur.jpg);
+    background-size:cover;
+}
+
+.cardMara10{
+    background-image: url(../img/baudelaire.jpg);
+    background-size:cover;
 }
 
 .card1{
